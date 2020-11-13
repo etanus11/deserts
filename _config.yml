@@ -8,9 +8,9 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: https://www.lib.uidaho.edu
+url: http://dna.nust.na
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /demo
+baseurl: /deserts
 # location of code, the full url to your github repository
 source-code: https://github.com/CollectionBuilder/collectionbuilder-sa
 
@@ -25,12 +25,12 @@ tagline: Digital Collection Magic with Static Web Technologies
 # this description might appear in search result lists, keep around 160 characters max
 description: "CollectionBuilder-SA is a template for creating digital collection exhibits using static web technology."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: idaho;history;inland northwest
+keywords: Namibia,deserts,landscapes,Namib Desert,Kalahari desert
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: CollectionBuilder
 # Organization branding
-organization-name: "Digital Initiatives, University of Idaho Library"
-organization-link: https://www.lib.uidaho.edu/digital/
+organization-name: "Digital Coolections, Namibia University of Science and Techology"
+organization-link: http://dna.nust.na
 organization-logo-banner: https://www.lib.uidaho.edu/media/digital/justdi_logo_sm.png
 organization-logo-nav: https://www.lib.uidaho.edu/media/digital/bannerlogo_allwhite.png
 
@@ -41,11 +41,11 @@ organization-logo-nav: https://www.lib.uidaho.edu/media/digital/bannerlogo_allwh
 # If using local folder, dir name with proceeding slash. If using external web location, provide full URL
 objects: /objects 
 # choose metadata: this is the name of the csv file in your _data directory that describes the objects in your collection
-metadata: demo-metadata
+metadata: namibdesert
 # page generation settings 
 # "data" value must be the name of the metadata file (other values should be not be changed)
 page_gen:
-  - data: 'demo-metadata'
+  - data: 'namibdesert'
     template: 'items'
     name: 'objectid'
     dir: 'items'
